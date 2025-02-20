@@ -268,19 +268,7 @@ export default function Page() {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center">
           {[
              
-{
-  name
- :
-  
- "Bagolina"
- ,
-  src
- :
-  
- "bagolina.png"
-  
- }
- ,
+
  
              
  {
@@ -357,7 +345,19 @@ export default function Page() {
  }
  ,
  
-             
+ {
+  name
+ :
+  
+ "Bagolina"
+ ,
+  src
+ :
+  
+ "bagolina.png"
+  
+ }
+ ,
  {
   name
  :
