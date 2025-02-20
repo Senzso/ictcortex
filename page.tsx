@@ -488,7 +488,7 @@ export default function Page() {
                 </div>
               </div>
               <ul className="space-y-4 mb-8 text-gray-600">
-                {["6 months", "International certificate", "Career development program"].map((feature, index) => (
+                {["3 Month Program", "International Certificate", "Career Development Program", "Guaranteed Internship Placement", "Letter of Recommendation"].map((feature, index) => (
                   <li key={index} className="flex items-center gap-2">
                     <span className="text-[#FFD60A]">✓</span> <span className="font-bold">{feature}</span>
                   </li>
