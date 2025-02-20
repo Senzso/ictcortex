@@ -1,8 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Star, Trophy, Award, Menu, ChevronRight } from "lucide-react"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { Star, Trophy, Award, ChevronRight } from "lucide-react"
 import { Space_Grotesk } from "next/font/google"
 
 const spaceGrotesk = Space_Grotesk({
@@ -26,34 +25,7 @@ export default function Page() {
             height={40}
           />
         </div>
-        <nav className="hidden md:flex items-center gap-6">
-          {["HOME", "ACADEMIES", "COURSES", "BLOG", "CAREER"].map((item) => (
-            <Link key={item} href="#" className="hover:text-[#FFD60A] text-sm font-bold transition-colors duration-200">
-              {item}
-            </Link>
-          ))}
-        </nav>
-        <Sheet>
-          <SheetTrigger asChild>
-            <Button variant="ghost" size="icon" className="md:hidden">
-              <Menu className="h-6 w-6" />
-            </Button>
-          </SheetTrigger>
-          <SheetContent side="right" className="w-[300px] bg-[#1E0B32] border-[#c276f4]">
-            <nav className="flex flex-col gap-4">
-              {["HOME", "ACADEMIES", "COURSES", "BLOG", "CAREER"].map((item) => (
-                <Link
-                  key={item}
-                  href="#"
-                  className="text-lg hover:text-[#FFD60A] py-2 font-bold transition-colors duration-200"
-                >
-                  {item}
-                </Link>
-              ))}
-            </nav>
-          </SheetContent>
-        </Sheet>
-        <Button className="hidden md:flex bg-[#FFD60A] text-black hover:bg-[#FFD60A]/90 rounded-full text-sm font-bold transition-colors duration-200">
+        <Button className="bg-[#FFD60A] text-black hover:bg-[#FFD60A]/90 rounded-full text-sm font-bold transition-colors duration-200">
           Future Assistance
         </Button>
       </header>
@@ -302,7 +274,7 @@ export default function Page() {
       </div>
 
       {/* CTA Section */}
-      <div className="relative bg-gradient-to-r from-[#FFD60A] to-[#FFA500] py-16">
+      <div className="bg-gradient-to-r from-[#FFD60A] to-[#FFA500] py-16 pb-20">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto">
             <div className="text-black mb-8 md:mb-0">
@@ -327,7 +299,6 @@ export default function Page() {
             />
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-16 bg-[#1E0B32] rounded-t-[50%]"></div>
       </div>
 
       {/* Pricing Section */}
