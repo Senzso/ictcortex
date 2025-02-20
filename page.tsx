@@ -161,14 +161,14 @@ export default function Page() {
         <div className="grid md:grid-cols-2 gap-12">
           {[
             {
-              name: "Tarik Zaimi",
+              name: "Tarik Z.",
               role: "CEO, Co-founder",
               company: "ICT Cortex",
               image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Tarik-Zaimovic.png",
             },
             {
-              name: "Iva Malesi",
-              role: "People Development Officer, NLP trener",
+              name: "Iva M.",
+              role: "People Development Officer",
               company: "Bild studio",
               image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Iva-Malesevic-1.png",
             },
@@ -199,24 +199,24 @@ export default function Page() {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold mb-4 text-center">Don't just take our word for it!</h2>
-            <p className="text-[#FFD60A] mb-12 font-bold text-center">90% of our students are employed</p>
+            <p className="text-[#FFD60A] mb-12 font-bold text-center">97% of our students are employed</p>
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
                   text: "Attending the course at Cortex Academy turned out to be a good choice. It was designed in a way that is easy to understand and can be useful for those who want to start or expand their knowledge of Frontend programming. After successfully completing the course, a practical project followed, which was the most interesting part for me. The project was implemented in the presence of mentor Zoran Mastilović, who was available for suggestions at any time.",
-                  name: "Marina Vojinovic",
+                  name: "Marina V.",
                   role: "Frontend Developer",
                   image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Marina-Vojinovic.jpg",
                 },
                 {
                   text: "As a participant of the Cortex Academy project management course, with segments of agile and scrum methodology, by creating a test task, I successfully mastered practical skills that are key to the position of product manager. I would like to highlight the help of mentors who monitored my progress and helped me become competitive in the IT industry job market. Thanks to this course, I learned to work with tools such as the JIRA platform, Confluence, Click-up, Miro board and gained a large number of connections.",
-                  name: "Jelena R.",
+                  name: "Lena R.",
                   role: "Product Manager",
                   image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Jelena-Rajkovic-scaled.jpg",
                 },
                 {
                   text: "The internship for high school students helped me see what working in companies is like and what the labor market requires of us after graduation. Based on the internship I completed, I have already had the opportunity to be employed in one of the cluster companies.",
-                  name: "Gjovan P.",
+                  name: "Endrit P.",
                   role: "High School Student",
                   image: "https://academy.ictcortex.me/wp-content/uploads/2021/10/Jovan-Popovic-1.jpg",
                 },
