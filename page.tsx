@@ -25,7 +25,15 @@ export default function Page() {
             height={40}
           />
         </div>
-        <Button className="bg-[#FFD60A] text-black hover:bg-[#FFD60A]/90 rounded-full text-sm font-bold transition-colors duration-200">
+        <Button
+          className="bg-[#FFD60A] text-black hover:bg-[#FFD60A]/90 rounded-full text-sm font-bold transition-colors duration-200"
+          onClick={() =>
+            window.open(
+              "https://wa.me/386000000000?text=Hello%2C%20I%20would%20like%20to%20learn%20more%20about%20the%20Cortex%20Project%20Management%20program.",
+              "_blank",
+            )
+          }
+        >
           Contact Us
         </Button>
       </header>
@@ -39,11 +47,19 @@ export default function Page() {
           Transform Your Career with Project Management Mastery
         </h1>
         <p className="text-lg mb-10 text-gray-300 leading-relaxed">
-          Secure your future in just 3 months. Get hands-on training, guaranteed internship, a stable career. 
-          <span className="font-bold text-[#FFD60A]">97% of our graduates are employed.</span> Will you be
+          Secure your future in just 3 months. Get hands-on training, guaranteed internship, and 1-on-1 career
+          mentorship. <span className="font-bold text-[#FFD60A]">97% of our graduates are employed.</span> Will you be
           next?
         </p>
-        <Button className="bg-[#FFD60A] text-black hover:bg-[#FFD60A]/90 rounded-full px-8 py-6 text-lg font-bold transition-transform duration-200 hover:scale-105">
+        <Button
+          className="bg-[#FFD60A] text-black hover:bg-[#FFD60A]/90 rounded-full px-8 py-6 text-lg font-bold transition-transform duration-200 hover:scale-105"
+          onClick={() =>
+            window.open(
+              "https://wa.me/386000000000?text=Hello%2C%20I%20would%20like%20to%20register%20for%20the%20Cortex%20Project%20Management%20program.%20I%20have%20received%20the%20information%20and%20would%20like%20to%20proceed%20with%20the%20registration.%20Please%20guide%20me%20through%20the%20next%20steps.",
+              "_blank",
+            )
+          }
+        >
           CLAIM YOUR SPOT NOW
         </Button>
 
@@ -73,7 +89,7 @@ export default function Page() {
           {[
             {
               icon: Star,
-              title: "Guaranteed Internship and Letter of Recommendation",
+              title: "Guaranteed Internship",
               description:
                 "Start building your career immediately with our partner companies. Real experience, real projects.",
             },
@@ -161,14 +177,14 @@ export default function Page() {
         <div className="grid md:grid-cols-2 gap-12">
           {[
             {
-              name: "Tarik Z.",
+              name: "Tarik Zaimi",
               role: "CEO, Co-founder",
               company: "ICT Cortex",
               image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Tarik-Zaimovic.png",
             },
             {
-              name: "Iva M.",
-              role: "People Development Officer",
+              name: "Iva Malesi",
+              role: "People Development Officer, NLP trener",
               company: "Bild studio",
               image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Iva-Malesevic-1.png",
             },
@@ -199,24 +215,24 @@ export default function Page() {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold mb-4 text-center">Don't just take our word for it!</h2>
-            <p className="text-[#FFD60A] mb-12 font-bold text-center">97% of our students are employed</p>
+            <p className="text-[#FFD60A] mb-12 font-bold text-center">90% of our students are employed</p>
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
                   text: "Attending the course at Cortex Academy turned out to be a good choice. It was designed in a way that is easy to understand and can be useful for those who want to start or expand their knowledge of Frontend programming. After successfully completing the course, a practical project followed, which was the most interesting part for me. The project was implemented in the presence of mentor Zoran Mastilović, who was available for suggestions at any time.",
-                  name: "Marina V.",
+                  name: "Marina Vojinovic",
                   role: "Frontend Developer",
                   image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Marina-Vojinovic.jpg",
                 },
                 {
                   text: "As a participant of the Cortex Academy project management course, with segments of agile and scrum methodology, by creating a test task, I successfully mastered practical skills that are key to the position of product manager. I would like to highlight the help of mentors who monitored my progress and helped me become competitive in the IT industry job market. Thanks to this course, I learned to work with tools such as the JIRA platform, Confluence, Click-up, Miro board and gained a large number of connections.",
-                  name: "Lena R.",
+                  name: "Jelena R.",
                   role: "Product Manager",
                   image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Jelena-Rajkovic-scaled.jpg",
                 },
                 {
                   text: "The internship for high school students helped me see what working in companies is like and what the labor market requires of us after graduation. Based on the internship I completed, I have already had the opportunity to be employed in one of the cluster companies.",
-                  name: "Endrit P.",
+                  name: "Gjovan P.",
                   role: "High School Student",
                   image: "https://academy.ictcortex.me/wp-content/uploads/2021/10/Jovan-Popovic-1.jpg",
                 },
@@ -251,16 +267,15 @@ export default function Page() {
         <h2 className="text-3xl font-bold mb-8">Guaranteed Internship Placement with Our Partners</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center">
           {[
-            { name: "Bagolina", src: "bagolina.png" },
-            { name: "Bild", src: "bild.png" },
-            { name: "Model Slovenia", src: "ms.png" },
-            { name: "Data Design", src: "datadesign.png" },
-            { name: "Codeus", src: "codeus.png" },
-            { name: "Coinis", src: "coinis.png" },
-            { name: "Fleka", src: "fleka.png" },
-            { name: "Liridoni", src: "liridoni.png" },
-            { name: "Agusholli", src: "agusholli.png" },
-            { name: "Concordia", src: "concordia.png" },
+            { name: "Bagolina", src: "/partner-logos/bagolina.png" },
+            { name: "Bild", src: "/partner-logos/bild.png" },
+            { name: "Model Slovenia", src: "/partner-logos/modelslovenia.png" },
+            { name: "Data Design", src: "/partner-logos/datadesign.png" },
+            { name: "Codeus", src: "/partner-logos/codeus-logo.png" },
+            { name: "Coinis", src: "/partner-logos/coinis.png" },
+            { name: "Fleka", src: "/partner-logos/Fleka-logo-1-e1674223739111.png" },
+            { name: "Prishtina Mall", src: "/partner-logos/prishtinamall.svg" },
+            { name: "Agusholli", src: "/partner-logos/agusholli.jpg" },
           ].map((partner, index) => (
             <Image
               key={index}
@@ -287,6 +302,12 @@ export default function Page() {
               <Button
                 variant="outline"
                 className="rounded-full font-bold bg-white text-black hover:bg-black hover:text-white transition-colors duration-200"
+                onClick={() =>
+                  window.open(
+                    "https://wa.me/386000000000?text=Hello%2C%20I%20would%20like%20to%20schedule%20a%20free%20consultation%20for%20the%20Cortex%20Project%20Management%20program.",
+                    "_blank",
+                  )
+                }
               >
                 Schedule Your Free Consultation <ChevronRight className="ml-2 h-4 w-4" />
               </Button>
@@ -339,6 +360,14 @@ export default function Page() {
                     ? "bg-gray-200 text-gray-600 hover:bg-gray-300"
                     : "bg-[#FFD60A] text-black hover:bg-[#FFD60A]/90"
                 }`}
+                onClick={() => {
+                  if (group.status !== "SOLD OUT") {
+                    window.open(
+                      "https://wa.me/386000000000?text=Hello%2C%20I%20would%20like%20to%20register%20for%20the%20Cortex%20Project%20Management%20program.%20I%20have%20received%20the%20information%20and%20would%20like%20to%20proceed%20with%20the%20registration.%20Please%20guide%20me%20through%20the%20next%20steps.",
+                      "_blank",
+                    )
+                  }
+                }}
               >
                 {group.status}
               </Button>
