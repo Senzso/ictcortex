@@ -416,6 +416,19 @@ export default function Page() {
   
  }
  ,
+ {
+  name
+ :
+  
+ "Duo Cosmetics"
+ ,
+  src
+ :
+  
+ "duo.png"
+  
+ }
+ ,
           ].map((partner, index) => (
             <Image
               key={index}
