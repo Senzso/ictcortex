@@ -257,9 +257,9 @@ export default function Page() {
             { name: "Data Design", src: "datadesign.png" },
             { name: "Codeus", src: "codeus.png" },
             { name: "Coinis", src: "coinis.png" },
-            { name: "Fleka", src: "/partner-logos/Fleka-logo-1-e1674223739111.png" },
-            { name: "Prishtina Mall", src: "/partner-logos/prishtinamall.svg" },
-            { name: "Agusholli", src: "/partner-logos/agusholli.jpg" },
+            { name: "Fleka", src: "fleka.png" },
+            { name: "Liridoni", src: "liridoni.png" },
+            { name: "Agusholli", src: "agusholli.png" },
           ].map((partner, index) => (
             <Image
               key={index}
