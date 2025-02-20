@@ -26,7 +26,7 @@ export default function Page() {
           />
         </div>
         <Button className="bg-[#FFD60A] text-black hover:bg-[#FFD60A]/90 rounded-full text-sm font-bold transition-colors duration-200">
-          Future Assistance
+          Contact Us
         </Button>
       </header>
 
@@ -251,10 +251,10 @@ export default function Page() {
         <h2 className="text-3xl font-bold mb-8">Guaranteed Internship Placement with Our Partners</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center">
           {[
-            { name: "Bagolina", src: "/partner-logos/bagolina.png" },
-            { name: "Bild", src: "/partner-logos/bild.png" },
+            { name: "Bagolina", src: "https://kosovajob.com/admin/companyLogos/1612165192.png" },
+            { name: "Bild", src: "bild.png" },
             { name: "Model Slovenia", src: "/partner-logos/modelslovenia.png" },
-            { name: "Data Design", src: "/partner-logos/datadesign.png" },
+            { name: "Data Design", src: "datadesign.png" },
             { name: "Codeus", src: "/partner-logos/codeus-logo.png" },
             { name: "Coinis", src: "/partner-logos/coinis.png" },
             { name: "Fleka", src: "/partner-logos/Fleka-logo-1-e1674223739111.png" },
