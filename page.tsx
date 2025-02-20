@@ -267,15 +267,155 @@ export default function Page() {
         <h2 className="text-3xl font-bold mb-8">Guaranteed Internship Placement with Our Partners</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center">
           {[
-            { name: "Bagolina", src: "/partner-logos/bagolina.png" },
-            { name: "Bild", src: "/partner-logos/bild.png" },
-            { name: "Model Slovenia", src: "/partner-logos/modelslovenia.png" },
-            { name: "Data Design", src: "/partner-logos/datadesign.png" },
-            { name: "Codeus", src: "/partner-logos/codeus-logo.png" },
-            { name: "Coinis", src: "/partner-logos/coinis.png" },
-            { name: "Fleka", src: "/partner-logos/Fleka-logo-1-e1674223739111.png" },
-            { name: "Prishtina Mall", src: "/partner-logos/prishtinamall.svg" },
-            { name: "Agusholli", src: "/partner-logos/agusholli.jpg" },
+             
+{
+  name
+ :
+  
+ "Bagolina"
+ ,
+  src
+ :
+  
+ "bagolina.png"
+  
+ }
+ ,
+ 
+             
+ {
+  name
+ :
+  
+ "Bild"
+ ,
+  src
+ :
+  
+ "bild.png"
+  
+ }
+ ,
+ 
+             
+ {
+  name
+ :
+  
+ "Model Slovenia"
+ ,
+  src
+ :
+  
+ "ms.png"
+  
+ }
+ ,
+ 
+             
+ {
+  name
+ :
+  
+ "Data Design"
+ ,
+  src
+ :
+  
+ "datadesign.png"
+  
+ }
+ ,
+ 
+             
+ {
+  name
+ :
+  
+ "Codeus"
+ ,
+  src
+ :
+  
+ "codeus.png"
+  
+ }
+ ,
+ 
+             
+ {
+  name
+ :
+  
+ "Coinis"
+ ,
+  src
+ :
+  
+ "coinis.png"
+  
+ }
+ ,
+ 
+             
+ {
+  name
+ :
+  
+ "Fleka"
+ ,
+  src
+ :
+  
+ "fleka.png"
+  
+ }
+ ,
+ 
+             
+ {
+  name
+ :
+  
+ "Liridoni"
+ ,
+  src
+ :
+  
+ "liridoni.png"
+  
+ }
+ ,
+ 
+             
+ {
+  name
+ :
+  
+ "Agusholli"
+ ,
+  src
+ :
+  
+ "agusholli.png"
+  
+ }
+ ,
+ 
+             
+ {
+  name
+ :
+  
+ "Concordia"
+ ,
+  src
+ :
+  
+ "concordia.png"
+  
+ }
+ ,
           ].map((partner, index) => (
             <Image
               key={index}
