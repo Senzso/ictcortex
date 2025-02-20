@@ -429,6 +429,19 @@ export default function Page() {
   
  }
  ,
+ {
+  name
+ :
+  
+ "CodePixel"
+ ,
+  src
+ :
+  
+ "codepixel.png"
+  
+ }
+ ,
           ].map((partner, index) => (
             <Image
               key={index}
