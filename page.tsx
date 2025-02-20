@@ -39,8 +39,8 @@ export default function Page() {
           Transform Your Career with Project Management Mastery
         </h1>
         <p className="text-lg mb-10 text-gray-300 leading-relaxed">
-          Secure your future in just 3 months. Get hands-on training, guaranteed internship, and 1-on-1 career
-          mentorship. <span className="font-bold text-[#FFD60A]">97% of our graduates are employed.</span> Will you be
+          Secure your future in just 3 months. Get hands-on training, guaranteed internship, a stable career. 
+          <span className="font-bold text-[#FFD60A]">97% of our graduates are employed.</span> Will you be
           next?
         </p>
         <Button className="bg-[#FFD60A] text-black hover:bg-[#FFD60A]/90 rounded-full px-8 py-6 text-lg font-bold transition-transform duration-200 hover:scale-105">
@@ -73,7 +73,7 @@ export default function Page() {
           {[
             {
               icon: Star,
-              title: "Guaranteed Internship",
+              title: "Guaranteed Internship and Letter of Recommendation",
               description:
                 "Start building your career immediately with our partner companies. Real experience, real projects.",
             },
