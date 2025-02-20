@@ -295,7 +295,7 @@ export default function Page() {
               alt="Knowledge is a choice"
               width={400}
               height={400}
-              className="hidden md:block object-contain transition-transform duration-200 hover:scale-105"
+              className="w-full md:w-auto max-w-[300px] mx-auto md:mx-0 mb-8 md:mb-0 object-contain"
             />
           </div>
         </div>
