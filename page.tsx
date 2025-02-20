@@ -260,6 +260,7 @@ export default function Page() {
             { name: "Fleka", src: "fleka.png" },
             { name: "Liridoni", src: "liridoni.png" },
             { name: "Agusholli", src: "agusholli.png" },
+            { name: "Concordia", src: "concordia.png" },
           ].map((partner, index) => (
             <Image
               key={index}
