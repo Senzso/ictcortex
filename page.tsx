@@ -362,12 +362,12 @@ export default function Page() {
   name
  :
   
- "Fleka"
+ "DayToDay"
  ,
   src
  :
   
- "fleka.png"
+ "daytoday.png"
   
  }
  ,
