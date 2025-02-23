@@ -220,21 +220,21 @@ export default function Page() {
               {[
                 {
                   text: "Attending the course at Cortex Academy turned out to be a good choice. It was designed in a way that is easy to understand and can be useful for those who want to start or expand their knowledge of Frontend programming. After successfully completing the course, a practical project followed, which was the most interesting part for me. The project was implemented in the presence of mentor Zoran Mastilović, who was available for suggestions at any time.",
-                  name: "Marina V.",
+                  name: "Joni V.",
                   role: "Frontend Developer",
-                  image: "marina.jpg",
+                  image: "3.jpg",
                 },
                 {
                   text: "As a participant of the Cortex Academy project management course, with segments of agile and scrum methodology, by creating a test task, I successfully mastered practical skills that are key to the position of product manager. I would like to highlight the help of mentors who monitored my progress and helped me become competitive in the IT industry job market. Thanks to this course, I learned to work with tools such as the JIRA platform, Confluence, Click-up, Miro board and gained a large number of connections.",
-                  name: "Jelena R.",
+                  name: "Valon R.",
                   role: "Product Manager",
-                  image: "jelena.jpg",
+                  image: "1.jpg",
                 },
                 {
                   text: "The internship for high school students helped me see what working in companies is like and what the labor market requires of us after graduation. Based on the internship I completed, I have already had the opportunity to be employed in one of the cluster companies.",
-                  name: "Jovan P.",
+                  name: "Rian S.",
                   role: "High School Student",
-                  image: "jovan.jpg",
+                  image: "2.jpg",
                 },
               ].map((testimonial, index) => (
                 <div
