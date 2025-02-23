@@ -176,17 +176,17 @@ export default function Page() {
         <h2 className="text-3xl font-bold mb-16 text-center">Meet the Lecturers</h2>
         <div className="grid md:grid-cols-2 gap-12">
           {[
-            {
-              name: "Tarik Z.",
-              role: "CEO, Co-founder",
-              company: "ICT Cortex",
-              image: "tarik.jpg",
+             {
+              name: "Brian H.",
+              role: "Staff Product Manager",
+              company: "Neon ($150M Start-Up)",
+              image: "l1.jpg",
             },
             {
-              name: "Iva M.",
-              role: "People Development Officer, NLP trener",
-              company: "Bild studio",
-              image: "iva.jpg",
+              name: "Todd G.",
+              role: "Software Entrepreneur & Developer",
+              company: "Request Metrics",
+              image: "l2.jpg",
             },
           ].map((lecturer, index) => (
             <div
